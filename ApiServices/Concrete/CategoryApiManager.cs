@@ -13,7 +13,7 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
         public CategoryApiManager(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("http://localhost:61968/api/categories/")
+            _httpClient.BaseAddress = new Uri("http://localhost:61968/api/categories/");
         }
         public async Task<List<CategoryListModel>> GetAllAsync()
         {

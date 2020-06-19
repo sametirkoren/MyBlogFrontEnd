@@ -1,11 +1,19 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MyBlogFrontEnd.ApiServices.Interfaces;
 
 namespace MyBlogFrontEnd.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index(){
-            return View();
+        private readonly IBlogApiService _blogApiService;
+        public HomeController(IBlogApiService blogApiService)
+        {
+            _blogApiService = blogApiService;
+        }
+        public async Task<IActionResult> Index(){
+            return View(await _blogApiService.GetAllAsync());
+            
         }
     }
 }

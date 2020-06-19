@@ -19,6 +19,7 @@ namespace MyBlogFrontEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient<IBlogApiService,BlogApiManager>();
+            services.AddHttpClient<ICategoryApiService,CategoryApiManager>();
             services.AddControllersWithViews();
         }
 

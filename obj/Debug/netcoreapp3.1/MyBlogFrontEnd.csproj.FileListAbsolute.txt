@@ -27,3 +27,7 @@ C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.V
 C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.dll
 C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.pdb
 C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.csproj.CopyComplete
+C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vakidev\Desktop\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vakidev\Desktop\MyBlogFrontEnd\bin\Debug\netcoreapp3.1\libman.json

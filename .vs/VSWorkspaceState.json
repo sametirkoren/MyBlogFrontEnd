@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApiServices",
+    "\\ApiServices\\Concrete",
+    "\\ApiServices\\Interfaces"
+  ],
+  "SelectedNode": "\\ApiServices\\Interfaces\\IImageApiService.cs",
+  "PreviewInSolutionExplorer": false
+}

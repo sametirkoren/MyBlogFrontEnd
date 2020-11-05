@@ -12,8 +12,15 @@ namespace MyBlogFrontEnd.Models.Home
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 2 "C:\Users\developer03\source\repos\MyBlogFrontEnd\Views\_ViewImports.cshtml"
+using MyBlogFrontEnd.Enums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1722a81e4c17b34a4e994905fed5612927e13fb1", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57d93f1d9b0270ccd413356adeb6ae248931acfd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4e3fda2c06b068ccf77208b817163124248c72d2", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<BlogListModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "BlogDetail", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -52,7 +59,7 @@ namespace MyBlogFrontEnd.Models.Home
 #line hidden
 #nullable disable
             WriteLiteral("    <div class=\"card mb-4\">\r\n           ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("getblogimage", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1722a81e4c17b34a4e994905fed5612927e13fb13764", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("getblogimage", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1722a81e4c17b34a4e994905fed5612927e13fb13948", async() => {
             }
             );
             __MyBlogFrontEnd_TagHelpers_ImageTagHelper = CreateTagHelper<global::MyBlogFrontEnd.TagHelpers.ImageTagHelper>();
@@ -89,7 +96,7 @@ __MyBlogFrontEnd_TagHelpers_ImageTagHelper.Id = blog.Id;
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1722a81e4c17b34a4e994905fed5612927e13fb15705", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1722a81e4c17b34a4e994905fed5612927e13fb15889", async() => {
                 WriteLiteral("Read More &rarr;");
             }
             );

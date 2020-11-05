@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using MyBlogFrontEnd.ApiServices.Interfaces;
-
+using MyBlogFrontEnd.Enums;
 
 namespace MyBlogFrontEnd.TagHelpers
 {
@@ -14,12 +14,18 @@ namespace MyBlogFrontEnd.TagHelpers
             _imageApiService = imageApiService;
         }
         public int Id { get; set; }
-      
+
+        public BlogImageType BlogImageType {get;set;} = BlogImageType.BlogHome;
         public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
         {
             var blob = await _imageApiService.GetBlogImageByIdAsync(Id);
             string html = string.Empty;
-            html = $"<img src='{blob}' class='card-img-top'/>";
+            if(BlogImageType== BlogImageType.BlogHome){
+                html = $"<img src='{blob}' class='card-img-top'/>";
+            }else{
+                html = $"<img src='{blob}' class='img-fluid rounded'/>";
+            }
+          
            
 
             output.Content.SetHtmlContent(html);

@@ -12439,6 +12439,38 @@
         }
       },
       {
+        "HashCode": -345574576,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__GetCategoryNameViewComponentTagHelper",
+        "AssemblyName": "MyBlogFrontEnd",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:get-category-name",
+            "Attributes": [
+              {
+                "Name": "category-id"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "category-id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "categoryId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__GetCategoryNameViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "GetCategoryName"
+        }
+      },
+      {
         "HashCode": 1912741130,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14411,6 +14443,11 @@
     {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\GetCategoryName\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\GetCategoryName\\Default.cshtml",
       "FileKind": "mvc"
     },
     {

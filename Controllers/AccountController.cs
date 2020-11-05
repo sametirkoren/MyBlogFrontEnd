@@ -25,7 +25,7 @@ namespace MyBlogFrontEnd.Controllers
          public async Task<IActionResult> SignIn(AppUserLoginModel model)
         {
             if(await _authApiService.SignIn(model)){
-                return RedirectToAction("test");
+                return RedirectToAction("Index","Home",new  {@area="Admin"});
             }
             return View();
         }

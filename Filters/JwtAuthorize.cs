@@ -17,7 +17,7 @@ namespace MyBlogFrontEnd.Filters
             var token = context.HttpContext.Session.GetString("token" );
 
             if(string.IsNullOrWhiteSpace(token)){
-                context.Result = new RedirectToActionResult("SignIn","Account",null);
+                context.Result = new RedirectToActionResult("SignIn","Account",new {@area=""});
             }else{
                 using var httpClient = new HttpClient();
                 httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",token);
@@ -27,7 +27,7 @@ namespace MyBlogFrontEnd.Filters
                    context.HttpContext.Session.SetObject("activeUser",activeUser);
                 }
                 else{
-                    context.Result = new RedirectToActionResult("SignIn","Account",null);
+                    context.Result = new RedirectToActionResult("SignIn","Account",new {@area=""});
                 }
             }
         }

@@ -14491,6 +14491,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

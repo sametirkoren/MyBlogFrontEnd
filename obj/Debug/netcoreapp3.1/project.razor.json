@@ -10256,6 +10256,41 @@
         }
       },
       {
+        "HashCode": 317092132,
+        "Kind": "ITagHelper",
+        "Name": "MyBlogFrontEnd.TagHelpers.ImageTagHelper",
+        "AssemblyName": "MyBlogFrontEnd",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "getblogimage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "blog-image-type",
+            "TypeName": "MyBlogFrontEnd.Enums.BlogImageType",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "BlogImageType"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "MyBlogFrontEnd.TagHelpers.ImageTagHelper"
+        }
+      },
+      {
         "HashCode": 1226202186,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -14463,6 +14498,11 @@
     {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\BlogDetail.cshtml",
       "TargetPath": "Views\\Home\\BlogDetail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Account\\SignIn.cshtml",
+      "TargetPath": "Views\\Account\\SignIn.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -73,3 +73,4 @@ C:\Users\developer03\Source\Repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogF
 C:\Users\developer03\Source\Repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.pdb
 C:\Users\developer03\Source\Repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.genruntimeconfig.cache
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\GetCategoryName\Default.cshtml.g.cs
+C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignIn.cshtml.g.cs

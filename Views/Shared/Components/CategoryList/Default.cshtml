@@ -1,4 +1,4 @@
-@model List<CategoryListModel>
+@model List<CategoryWithBlogsCountModel>
 
 
 <div class="card my-4">
@@ -7,8 +7,8 @@
     {
         <div class="list-group">
             <a class="list-group-item d-flex list-group-item-action justify-content-between align-items-center">
-                @category.Name
-                <span class="badge badge-primary badge-pill">14</span>
+                @category.CategoryName
+                <span class="badge badge-primary badge-pill">@category.BlogsCount</span>
             </a>
     
     </div>

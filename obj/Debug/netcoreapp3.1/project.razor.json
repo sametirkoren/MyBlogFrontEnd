@@ -14491,6 +14491,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Home\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14503,6 +14508,21 @@
     {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\BlogDetail.cshtml",
       "TargetPath": "Views\\Home\\BlogDetail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Blog\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {

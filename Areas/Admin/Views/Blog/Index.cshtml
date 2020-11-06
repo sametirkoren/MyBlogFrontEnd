@@ -1,0 +1,24 @@
+@model List<BlogListModel>
+
+<a href=""  class="btn btn-info btn-sm">Yeni Blog Yaz</a>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Blog Başlık</th>
+            <th>Blog İşlemler</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in Model)
+       {
+            <tr>
+                <td scope="row">@item.Title</td>
+                <td> <a href="">Düzenle</a> <a href="">Sil</a> </td>
+               
+            
+            </tr>
+       }
+       
+    </tbody>
+</table>

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
+  "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14471,73 +14471,73 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 800
+    "CSharpLanguageVersion": 900
   },
   "RootNamespace": "MyBlogFrontEnd",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\GetCategoryName\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\GetCategoryName\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\BlogDetail.cshtml",
-      "TargetPath": "Views\\Home\\BlogDetail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Blog\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Account\\SignIn.cshtml",
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Account\\SignIn.cshtml",
       "TargetPath": "Views\\Account\\SignIn.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\GetCategoryName\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\GetCategoryName\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Blog\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\BlogDetail.cshtml",
+      "TargetPath": "Views\\Home\\BlogDetail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\CategoryList\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\CategoryList\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

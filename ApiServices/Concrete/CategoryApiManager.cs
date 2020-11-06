@@ -25,16 +25,17 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
             return null;
         }
 
-        public async Task<List<CategoryWithBlogsCountModel>> GetAllWithBlogsCount(){
-            var responseMessage = await _httpClient.GetAsync("GetWithBlogsCount");
+        public async Task<List<CategoryWithBlogsCountModel>> GetAllWithBlogsCount()
+        {
+              var responseMessage = await _httpClient.GetAsync("GetWithBlogsCount");
             if(responseMessage.IsSuccessStatusCode){
                 return JsonConvert.DeserializeObject<List<CategoryWithBlogsCountModel>>(await responseMessage.Content.ReadAsStringAsync());
             }
             return null;
         }
-        
 
-        public async Task<CategoryListModel> GetByIdAsync(int id){
+        public async Task<CategoryListModel> GetByIdAsync(int id)
+        {
             var responseMessage = await _httpClient.GetAsync($"{id}");
             if(responseMessage.IsSuccessStatusCode){
                 return JsonConvert.DeserializeObject<CategoryListModel>(await responseMessage.Content.ReadAsStringAsync());
@@ -42,5 +43,9 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
 
             return null;
         }
+
+      
+
+       
     }
 }

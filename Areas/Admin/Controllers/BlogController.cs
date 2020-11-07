@@ -22,17 +22,46 @@ namespace MyBlogFrontEnd.Areas.Admin.Controllers
         }
 
 
-        public IActionResult Create(){
+        public IActionResult Create()
+        {
             return View(new BlogAddModel());
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(BlogAddModel model){
-            if(ModelState.IsValid){
+        public async Task<IActionResult> Create(BlogAddModel model)
+        {
+            if (ModelState.IsValid)
+            {
                 await _blogApiService.AddAsync(model);
                 return RedirectToAction("Index");
             }
             return View();
         }
+
+
+        public async Task<IActionResult> Update(int id)
+        {
+            var blogList = await _blogApiService.GetByIdAsync(id);
+            return View(new BlogUpdateModel{
+                Id = blogList.Id,
+                Title = blogList.Title,
+                Description = blogList.Description,
+                ShortDescription = blogList.ShortDescription,
+              
+            });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(BlogUpdateModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                await _blogApiService.UpdateAsync(model);
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+
     }
 }

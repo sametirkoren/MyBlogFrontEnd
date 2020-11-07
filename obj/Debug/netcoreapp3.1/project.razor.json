@@ -14486,6 +14486,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\Update.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Blog\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Views\\Account\\SignIn.cshtml",
       "TargetPath": "Views\\Account\\SignIn.cshtml",
       "FileKind": "mvc"

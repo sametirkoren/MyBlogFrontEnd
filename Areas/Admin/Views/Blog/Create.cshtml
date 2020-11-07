@@ -1,0 +1,41 @@
+@model BlogAddModel
+<form method="POST" asp-action="Create" class="p-3" enctype="multipart/form-data">
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input  class="form-control" asp-for="Title">
+    </div>
+
+    
+    <div class="form-group">
+        <label asp-for="ShortDescription"></label>
+        <input  class="form-control" asp-for="ShortDescription">
+    </div>
+
+    
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input  class="form-control" asp-for="Description">
+    </div>
+
+        
+    <div class="form-group">
+        <label asp-for="Image"></label>
+        <input  type="file" class="form-control-file" asp-for="Image">
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-block btn-info">Kaydet</button>
+    </div>
+</form>
+
+@section Css{
+    <link rel="stylesheet" href="/lib/Trumbowyg/dist/ui/trumbowyg.min.css">
+}
+
+@section JavaScript{
+    <script src="/lib/Trumbowyg/dist/trumbowyg.min.js"></script>
+    <script>
+        $("#Description").trumbowyg();
+    </script>
+}

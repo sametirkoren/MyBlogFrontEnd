@@ -14496,6 +14496,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Blog\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Blog\\Index.cshtml",
       "FileKind": "mvc"

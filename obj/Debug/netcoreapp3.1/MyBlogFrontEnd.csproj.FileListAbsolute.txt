@@ -124,3 +124,4 @@ C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\staticwebas
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.dll
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.pdb
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.genruntimeconfig.cache
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs

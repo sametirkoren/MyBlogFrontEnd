@@ -104,5 +104,12 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
 
             await _httpClient.PutAsync($"{model.Id}",formData);
         }
+
+        public async Task DeleteAsync(int id){
+            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",_httpContextAccessor.HttpContext.Session.GetString("token"));
+            
+            await _httpClient.DeleteAsync($"{id}");
+
+        }
     }
 }

@@ -126,3 +126,6 @@ C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFront
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.genruntimeconfig.cache
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Create.cshtml.g.cs
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Update.cshtml.g.cs
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs

@@ -8,31 +8,31 @@ namespace MyBlogFrontEnd.Areas.Admin.Controllers
 {
 
     [Area("Admin")]
-    public class BlogController : Controller
+    public class CategoryController : Controller
     {
-        private readonly IBlogApiService _blogApiService;
-        public BlogController(IBlogApiService blogApiService)
+        private readonly ICategoryApiService _categoryApiService;
+        public CategoryController(ICategoryApiService categoryApiService)
         {
-            _blogApiService = blogApiService;
+            _categoryApiService = categoryApiService;
         }
         [JwtAuthorize]
         public async Task<IActionResult> Index()
         {
-            return View(await _blogApiService.GetAllAsync());
+            return View(await _categoryApiService.GetAllAsync());
         }
 
 
         public IActionResult Create()
         {
-            return View(new BlogAddModel());
+            return View(new CategoryAddModel());
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(BlogAddModel model)
+        public async Task<IActionResult> Create(CategoryAddModel model)
         {
             if (ModelState.IsValid)
             {
-                await _blogApiService.AddAsync(model);
+                await _categoryApiService.AddAsync(model);
                 return RedirectToAction("Index");
             }
             return View();
@@ -41,22 +41,20 @@ namespace MyBlogFrontEnd.Areas.Admin.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            var blogList = await _blogApiService.GetByIdAsync(id);
-            return View(new BlogUpdateModel{
-                Id = blogList.Id,
-                Title = blogList.Title,
-                Description = blogList.Description,
-                ShortDescription = blogList.ShortDescription,
+            var categoryList = await _categoryApiService.GetByIdAsync(id);
+            return View(new CategoryUpdateModel{
+                Id = categoryList.Id,
+                Name = categoryList.Name
               
             });
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(BlogUpdateModel model)
+        public async Task<IActionResult> Update(CategoryUpdateModel model)
         {
             if (ModelState.IsValid)
             {
-                await _blogApiService.UpdateAsync(model);
+                await _categoryApiService.UpdateAsync(model);
                 return RedirectToAction("Index");
             }
             return View();
@@ -64,7 +62,7 @@ namespace MyBlogFrontEnd.Areas.Admin.Controllers
 
 
         public async Task<IActionResult> Delete(int id){
-            await _blogApiService.DeleteAsync(id);
+            await _categoryApiService.DeleteAsync(id);
             return RedirectToAction("Index");
         }
 

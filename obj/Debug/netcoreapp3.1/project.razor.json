@@ -14526,6 +14526,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Category\\Update.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Category\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -14548,6 +14553,16 @@
     {
       "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vakidev\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Category\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

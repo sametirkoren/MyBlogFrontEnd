@@ -10,5 +10,6 @@ namespace MyBlogFrontEnd.ApiServices.Interfaces{
 
         Task AddAsync(BlogAddModel model);
         Task UpdateAsync(BlogUpdateModel model);
+        Task DeleteAsync(int id);
     }
 }

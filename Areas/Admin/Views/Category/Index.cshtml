@@ -1,10 +1,10 @@
-@model List<BlogListModel>
+@model List<CategoryListModel>
 
-<a asp-action="Create" asp-controller="Blog" asp-area="Admin"  class="btn btn-info btn-sm">Yeni Blog Yaz</a>
+<a asp-action="Create" asp-controller="Category" asp-area="Admin"  class="btn btn-info btn-sm">Yeni Kategori Yaz</a>
 <table class="table table-bordered table-hover">
     <thead>
         <tr>
-            <th>Blog Başlık</th>
+            <th>Kategori Adı</th>
             <th>Blog İşlemler</th>
             
         </tr>
@@ -13,7 +13,7 @@
        @foreach (var item in Model)
        {
             <tr>
-                <td scope="row">@item.Title</td>
+                <td scope="row">@item.Name</td>
                 <td> <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Düzenle</a> <a asp-action="Delete" asp-route-id="@item.Id"  class="btn btn-warning btn-sm">Sil</a> </td>
                
             

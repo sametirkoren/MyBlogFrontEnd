@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using MyBlogFrontEnd.ApiServices.Interfaces;
@@ -110,6 +111,23 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
             
             await _httpClient.DeleteAsync($"{id}");
 
+        }
+
+
+        public async Task<List<CommentListModel>> GetCommentsAsync(int blogId , int? parentCommentId){
+            var responseMessage = await _httpClient.GetAsync($"{blogId}/GetComments?parentCommentId={parentCommentId}");
+            if(responseMessage.IsSuccessStatusCode){
+                return JsonConvert.DeserializeObject<List<CommentListModel>>(await responseMessage.Content.ReadAsStringAsync());
+            }
+            return null;
+        }
+
+
+        public async Task AddToComment(CommentAddModel model){
+            var jsonData = JsonConvert.SerializeObject(model);
+            var content = new StringContent(jsonData,Encoding.UTF8,"application/json");
+
+            await _httpClient.PostAsync("AddComment",content);
         }
     }
 }

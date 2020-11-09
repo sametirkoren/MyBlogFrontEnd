@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/7X3oLyQBkZ2hujqBUsjSwekmnz87COabIzwXTXb1UkdzvdKjXxEj7miM90kzGmm5mhSv3CzXAg+kdnv67IXuQ==",
+  "dgSpecHash": "QrdQa1U7EDTUMng00TI0MbgfpC0JeSS6598G1tj1Tqhdsm4Mm7FQnPj6hTSPS3WIpYsAJnPFvYdN5QWdnXHW9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
+  "projectFilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\developer03\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj": {}
+    "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj": {
+    "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
+        "projectUniqueName": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
         "projectName": "MyBlogFrontEnd",
-        "projectPath": "C:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
+        "projectPath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\MyBlogFrontEnd.csproj",
         "packagesPath": "C:\\Users\\developer03\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\obj\\",
+        "outputPath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\developer03\\AppData\\Roaming\\NuGet\\NuGet.Config",

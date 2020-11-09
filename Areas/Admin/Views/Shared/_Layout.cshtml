@@ -1,5 +1,9 @@
+@{
+  var active = TempData["active"].ToString();
+}
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
 
@@ -8,10 +12,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Simple Sidebar - Start Bootstrap Template</title>
+  <title>Admin Paneli</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/simplex.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="/css/simple-sidebar.css" rel="stylesheet">
@@ -24,10 +28,11 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="sidebar-heading"><img src="https://img.icons8.com/bubbles/2x/admin-settings-male.png" class="w-100 img-fluid img-thumbnail"  alt="Admin Panel"></div>
       <div class="list-group list-group-flush">
-        <a asp-action="Index" asp-controller="Blog" asp-area="Admin" class="list-group-item list-group-item-action bg-light">Blog İşlemleri</a>
-        <a asp-action="Index" asp-controller="Category" asp-area="Admin" class="list-group-item list-group-item-action bg-light">Kategori İşlemleri</a>
+        <a asp-action="Index" asp-controller="Blog" asp-area="Admin" class="list-group-item list-group-item-action @(active=="blog" ? "active" : "")">Blog İşlemleri</a>
+        <a asp-action="Index" asp-controller="Category" asp-area="Admin" class="list-group-item list-group-item-action @(active=="category" ? "active" : "")">Kategori İşlemleri</a>
+        <a asp-action="SignOut" asp-controller="Category" class="list-group-item list-group-item-action">Çıkış Yap</a>
         
       </div>
     </div>

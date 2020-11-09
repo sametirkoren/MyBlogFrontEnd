@@ -12506,6 +12506,55 @@
         }
       },
       {
+        "HashCode": -299079970,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__LastFiveBlogViewComponentTagHelper",
+        "AssemblyName": "MyBlogFrontEnd",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:last-five-blog"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__LastFiveBlogViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "LastFiveBlog"
+        }
+      },
+      {
+        "HashCode": 2091235971,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SearchViewComponentTagHelper",
+        "AssemblyName": "MyBlogFrontEnd",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:search",
+            "Attributes": [
+              {
+                "Name": "s"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "s",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "s"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__SearchViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Search"
+        }
+      },
+      {
         "HashCode": 1912741130,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14516,11 +14565,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14533,6 +14577,11 @@
     {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\AssignCategory.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Blog\\AssignCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\LastFiveBlog\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\LastFiveBlog\\default.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14556,8 +14605,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\Search\\default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Search\\default.cshtml",
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\Search\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Search\\Default.cshtml",
       "FileKind": "mvc"
     },
     {

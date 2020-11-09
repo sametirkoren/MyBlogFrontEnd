@@ -5,7 +5,8 @@
     <thead>
         <tr>
             <th>Blog Başlık</th>
-            <th>Blog İşlemler</th>
+            <th>Kategori İşlemleri</th>
+            <th>İşlemler</th>
             
         </tr>
     </thead>
@@ -14,6 +15,7 @@
        {
             <tr>
                 <td scope="row">@item.Title</td>
+                <td><a asp-action="AssignCategory" asp-route-id="@item.Id">Kategori Ata</a></td>
                 <td> <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Düzenle</a> <a asp-action="Delete" asp-route-id="@item.Id"  class="btn btn-warning btn-sm">Sil</a> </td>
                
             

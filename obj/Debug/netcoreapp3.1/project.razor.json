@@ -14531,6 +14531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Blog\\AssignCategory.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Blog\\AssignCategory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Home\\BlogDetail.cshtml",
       "TargetPath": "Views\\Home\\BlogDetail.cshtml",
       "FileKind": "mvc"
@@ -14548,6 +14553,11 @@
     {
       "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\developer03\\source\\repos\\MyBlogFrontEnd\\Views\\Shared\\Components\\Search\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Search\\default.cshtml",
       "FileKind": "mvc"
     },
     {

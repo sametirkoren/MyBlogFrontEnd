@@ -134,3 +134,5 @@ C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\A
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
+C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\AssignCategory.cshtml.g.cs
+C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Search\default.cshtml.g.cs

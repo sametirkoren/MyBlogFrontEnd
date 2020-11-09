@@ -154,6 +154,19 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
             }
             return null;
         }
+
+          public async Task AddToCategoryAsync(CategoryBlogModel model){
+            var jsonData = JsonConvert.SerializeObject(model);
+            var content = new StringContent(jsonData,Encoding.UTF8,"application/json");
+
+            await _httpClient.PostAsync("AddToCategory",content);
+        }
+
+
+        public async Task RemoveFromCategoryAsync(CategoryBlogModel model){
+            await _httpClient.DeleteAsync($"RemoveFromCategory?{nameof(CategoryBlogModel.CategoryId)}={model.CategoryId}&{nameof(CategoryBlogModel.BlogId)}={model.BlogId}");
+        } 
+
         
     }
 }

@@ -19,5 +19,8 @@ namespace MyBlogFrontEnd.ApiServices.Interfaces{
         Task<List<BlogListModel>> GetLastFiveAsync();
 
         Task<List<BlogListModel>> SearchAsync(string s);
+
+        Task AddToCategoryAsync(CategoryBlogModel model);
+        Task RemoveFromCategoryAsync(CategoryBlogModel model);
     }
 }

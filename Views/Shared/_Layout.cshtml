@@ -39,11 +39,11 @@
         </div>
         <div class="container">
           <div class="header-wrapper">
-            <a class="header__logo" href="index.html"><img src="/images/computer.png" style="max-height:3.5625em;" alt="Logo"></a>
+            <a class="header__logo"><img src="/images/computer.png" style="max-height:3.5625em;" alt="Logo"></a>
             <nav>
               <ul>
-                <li class="nav-item active"><a href="index.html">AnaSayfa</a></li>
-                <li class="nav-item"><a target="_blank" href="https://sametirkoren.com.t">CV</a>
+                <li class="nav-item active"><a href="https://blog.sametirkoren.com.tr">AnaSayfa</a></li>
+                <li class="nav-item"><a target="_blank" href="https://sametirkoren.com.tr">CV</a>
                   <!-- Blog Nav category drop down uncomment if you want a drop down-->
                   <!-- <ul class="dropdown-menu">
                     <li><a href="#">BLOG CATEGORY 1</a></li>
@@ -55,15 +55,14 @@
               </ul>
             </nav>
             <!-- Social Icons -->
-            <div class="header__icon-group"><a href="#" id="search"><i class="fas fa-search"></i></a>
+            <div class="header__icon-group"><a  id="search"><i class="fas fa-search"></i></a>
               <div class="social">
                 <a href="https://www.instagram.com/sametirkoren"><i class="fab fa-instagram"></i></a>
                 <a href="https://github.com/sametirkoren	"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/sametirkoren	"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://medium.com/sametirkoren"><i class="fab fa-medium"></i></a>
-                <a href="https://open.spotify.com/user/fl51cozxywmd4w75zbstwv1n3"><i class="fab fa-spotify"></i></a>
-          
-                <a id="mobile-menu-controller" href="#"><i class="fas fa-bars"></i></a>
+                <a href="https://open.spotify.com/user/fl51cozxywmd4w75zbstwv1n3"><i class="fab fa-spotify"></i></a>    
+                <a id="mobile-menu-controller"><i class="fas fa-bars"></i></a>
               </div>
             </div>
           </div>
@@ -84,23 +83,15 @@
                       <div class="center-line-title"> 
                       <h5>Kategoriler</h5>
                       </div>
-
                           @await Component.InvokeAsync("CategoryList")
-                                     
-                                
+                       
                     </div>
                     <div class="blog-sidebar-section -trending-post">
                       <div class="center-line-title"> 
                         <h5>Son Yazılanlar</h5>
-                      </div>
-                        
-                        @await Component.InvokeAsync("LastFiveBlog")
-
-                                
-  
-                               
-                    </div>
-                  
+                      </div>               
+                        @await Component.InvokeAsync("LastFiveBlog")             
+                    </div>            
                   </div>
                 </div>
                 
@@ -111,10 +102,7 @@
                     <!-- Render Blog-->
                     @RenderBody()
       
-       
-      
-        
-        
+
         </div></div>
                    
                 </div>

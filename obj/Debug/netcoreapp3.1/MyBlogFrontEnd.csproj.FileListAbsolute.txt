@@ -102,7 +102,6 @@ C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFront
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.TagHelpers.output.cache
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\MyBlogFrontEnd.RazorCoreGenerate.cache
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\Index.cshtml.g.cs
-C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
@@ -136,3 +135,6 @@ C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\A
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\AssignCategory.cshtml.g.cs
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Search\default.cshtml.g.cs
 C:\Users\developer03\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LastFiveBlog\default.cshtml.g.cs
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Blog\AssignCategory.cshtml.g.cs
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\LastFiveBlog\default.cshtml.g.cs
+C:\Users\vakidev\source\repos\MyBlogFrontEnd\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Search\Default.cshtml.g.cs

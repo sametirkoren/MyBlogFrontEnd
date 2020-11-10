@@ -5,14 +5,11 @@
         {
                <div class="trending-post">
                                   <div class="trending-post_image">
-                                  
-                                          <!--Img size is 100 x 100 -->
                                      <getblogimage id="@item.Id"></getblogimage>
                                   </div>
                                   <div class="trending-post_content">
-                                    <!-- Category Header -->
                                     <h5>Samet İrkören</h5>
-                                        <a href="post.html">@item.Title</a>
+                                        <a asp-action="BlogDetail" asp-route-id="@item.Id"  asp-controller="Home">@item.Title</a>
                                     <div class="info__time"><i class="far fa-clock"></i>
                                       <p>@item.PostedTime.ToLongDateString()</p>
                                     </div>

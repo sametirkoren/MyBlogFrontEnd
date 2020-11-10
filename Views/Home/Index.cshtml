@@ -10,18 +10,24 @@
 
  @foreach (var blog in Model)
  {
-      <div class="card mb-4">
-           <getblogimage id="@blog.Id"></getblogimage>
-          <div class="card-body">
-           
-            <h2 class="card-title">@blog.Title</h2>
-            <p class="card-text">@blog.ShortDescription</p>
-            <a asp-action="BlogDetail" asp-route-id="@blog.Id" class="btn btn-primary">Read More &rarr;</a>
+          <div class="col-12">
+            <div class="post-card -small -horizontal">
+              <a class="card__cover" asp-action="BlogDetail" asp-route-id="@blog.Id" tabindex="0"><getblogimage id="@blog.Id"></getblogimage></a>
+              <div class="card__content">
+                <h5 class="card__content-category">Samet İrkören</h5>
+                  <a class="card__content-title" asp-action="BlogDetail" asp-route-id="@blog.Id" tabindex="0">@blog.Title</a>
+                <div class="card__content-info">
+                  <div class="info__time"><i class="far fa-clock"></i>
+                    <p>@blog.PostedTime.ToLongDateString()</p>
+                  </div>
+                 
+                </div>
+                <p class="card__content-description">@blog.ShortDescription</p>
+              </div>
+            </div>
           </div>
-          <div class="card-footer text-muted">
-            Posted on @blog.PostedTime.ToLongDateString()
-          </div>
-          
- </div>
+
  }
 
+
+ 

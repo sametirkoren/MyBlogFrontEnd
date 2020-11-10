@@ -23,7 +23,7 @@ namespace MyBlogFrontEnd.TagHelpers
             if(BlogImageType== BlogImageType.BlogHome){
                 html = $"<img src='{blob}' class='card-img-top'/>";
             }else{
-                html = $"<img src='{blob}' class='img-fluid rounded'/>";
+                html = $"<img src='{blob}' style='height:auto' class='img-fluid rounded'/>";
             }
           
            

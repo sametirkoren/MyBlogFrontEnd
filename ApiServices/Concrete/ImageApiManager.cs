@@ -12,7 +12,7 @@ namespace MyBlogFrontEnd.ApiServices.Concrete
         public ImageApiManager(HttpClient httpClient)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress=new Uri("http://localhost:61968/api/images/");
+            _httpClient.BaseAddress=new Uri("https://blogapi.sametirkoren.com.tr/api/images/");
         }
 
         public async Task<string> GetBlogImageByIdAsync(int id){

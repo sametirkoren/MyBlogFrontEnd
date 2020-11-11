@@ -18,7 +18,7 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
         public BlogApiManager(HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("http://localhost:61968/api/blogs/");
+            _httpClient.BaseAddress = new Uri("https://blogapi.sametirkoren.com.tr/api/blogs/");
             _httpContextAccessor = httpContextAccessor;
         }
         public async Task<List<BlogListModel>> GetAllAsync()

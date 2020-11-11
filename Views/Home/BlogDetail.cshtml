@@ -13,7 +13,7 @@
           foreach (var comment in comments)
           {
         <div class="media my-3">
-          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <img class="d-flex mr-3 rounded-circle" style="height:100px;" src="/images/anonim.png" alt="">
           <div class="media-body">
             <h5 class="mt-0">@comment.AuthorName</h5>
               <p style="font-size : 0.75rem; " ><i class="far fa-clock mr-2"></i>@comment.PostedTime</p>
@@ -70,10 +70,6 @@
                     
                     <div class="post-footer__comment__detail">
 
-                      
-
-                     
-                     
                     <!-- comment Form -->
                     <h3 style="font-size:1.5rem; text-align:center;margin-bottom : 1rem;" class="comment-title"> <span>Yorum Yazınız</span></h3>
                     <div class="post-footer__comment__form">
@@ -90,7 +86,7 @@
                         </div>
                         <textarea cols="30" rows="5" placeholder="Mesajınız" name="Description"></textarea>
                          <div style="text-align:center;">
-                         <button  type="submit" class="btn danger">Gönder</button></div>
+                         <button  type="submit" class="btn danger" style="color:white ; background-color: #ff273c;">Gönder</button></div>
                       </form>
                       <div class="center">
                        
@@ -98,11 +94,6 @@
                     </div>
                   </div>
 
-
-
-     
-
-       
 
         <!-- Comment with nested comments -->
   @{
@@ -113,7 +104,7 @@
 
     <script>
       function showCommentForm(id,blogId){
-        let html = ` <h3 style="font-size:1.5rem; text-align:center;margin-bottom : 1rem;" class="comment-title"> <span>Yorum Yazınız</span></h3> <div class="post-footer__comment__form"> <form method="POST" action="/Home/AddToComment"> <input type="hidden" name="BlogId" value="@Model.Id"> <input type="hidden" name="ParentCommentId" value="${id}"> <div class="row"> <div class="col-12 col-sm-6"> <input type="text" placeholder="Adınız" name="AuthorName"> </div><div class="col-12 col-sm-6"> <input type="email" placeholder="Email Adresiniz" name="AuthorEmail"> </div></div><textarea cols="30" rows="5" placeholder="Mesajınız" name="Description"></textarea> <div style="text-align:center;"> <button class="btn btn-danger" type="submit" >Gönder</button> <button type="button" onclick="hideCommentForm(${id})" class="btn -normal" style="background-color : #BEBEBE">Vazgeç</button> </div></form> <div class="center"> </div></div></div>`;
+        let html = ` <h3 style="font-size:1.5rem; text-align:center;margin-bottom : 1rem;" class="comment-title"> <span>Yorum Yazınız</span></h3> <div class="post-footer__comment__form"> <form method="POST" action="/Home/AddToComment"> <input type="hidden" name="BlogId" value="@Model.Id"> <input type="hidden" name="ParentCommentId" value="${id}"> <div class="row"> <div class="col-12 col-sm-6"> <input type="text" placeholder="Adınız" name="AuthorName"> </div><div class="col-12 col-sm-6"> <input type="email" placeholder="Email Adresiniz" name="AuthorEmail"> </div></div><textarea cols="30" rows="5" placeholder="Mesajınız" name="Description"></textarea> <div style="text-align:center;"> <button class="btn btn-danger" style="color:white;background-color:#ff273c" type="submit" >Gönder</button> <button type="button" onclick="hideCommentForm(${id})" class="btn -normal" style="background-color : #BEBEBE">Vazgeç</button> </div></form> <div class="center"> </div></div></div>`;
         $("#commentBox"+id).html(html);
       }
 

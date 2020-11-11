@@ -17,7 +17,7 @@ namespace MyBlogFrontEnd.ApiServices.Concrete{
         public AuthApiManager(HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
         {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("http://localhost:61968/api/auth/");
+            _httpClient.BaseAddress = new Uri("https://blogapi.sametirkoren.com.tr/api/auth/");
             _httpContextAccessor = httpContextAccessor;
         }
 
